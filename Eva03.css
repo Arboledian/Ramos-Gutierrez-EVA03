@@ -1,4 +1,4 @@
-﻿body {
+﻿﻿body {
     background-color: orange;
     background-image: url("https://images2.alphacoders.com/749/thumb-1920-749693.jpg");
     background-size: cover;
@@ -102,15 +102,3 @@ button {
     background-position: center;
 }
 
-h5 {
-    padding: 20px;
-    margin: auto;
-}
-
-#contactaside {
-    display: inline-block;
-    left: 40%;
-    position: fixed;
-    text-align: center;
-    bottom: 40%;
-}
