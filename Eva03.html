@@ -1,18 +1,18 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
     <meta charset="utf-8">
-    <title>Prueba DOM</title>
+    <title>Evaluacion 3</title>
     <link href="Eva03.css" rel="stylesheet" />
 </head>
 <body>
+
     <script>
-function gbtn() {
+        function gbtn() {
 
             button.style.color = "gold";
             button.style.background = "grey";
-
-}
+        }
     </script>
 
     <div class="contenedor">
@@ -25,48 +25,52 @@ function gbtn() {
 
             El DOM se ve como un árbol en el que cada hoja o rama representa un elemento de HTML, la idea de representarlo como un árbol viene de buscar representar la jerarquía de nuestros documentos, es decir, quiénes son hijos de quién, cuáles son hermanos, etc.
         </article>
+
         <button id="boton" class="btn bnt-info" onclick="gbtn()">CAMBIAR</button>
 
     </div>
+
     <div class="container py-2">
         <p class="lead">ingresa usuarios</p>
         <form>
-            <input id="name" type="text" placeholder="enter name" class="form-control my-2">
-            <input id="genre" type="text" placeholder="enter genre" class="form-control my-2">
-            <input id="year" type="number" placeholder="enter year" class="form-control my-2">
+            <input id="Software" type="text" placeholder="Ingresar Software" class="form-control my-2">
+            <input id="Empresa" type="text" placeholder="Ingresar Empresa" class="form-control my-2">
+            <input id="Usuario" type="text" placeholder="Ingresar Usuario" class="form-control my-2">
             <button id="boton" type="reset" onclick="capturar();" class="btn bnt-success">agregar</button>
         </form>
     </div>
+
     <div class="container">
         <table class="table" id="tabla">
             <thead class="thead-inverse">
                 <tr>
-                    <th>name</th>
-                    <th>genre</th>
-                    <th>year</th>
+                    <th>Software</th>
+                    <th>Empresa</th>
+                    <th>Usuario</th>
                 </tr>
             </thead>
         </table>
-        <script src="meme1.js"></script>
+        <script src="Eva03.js"></script>
     </div>
-    <script>
-var h1 = document.getElementById("titulo");
-console.log(h1.innerHTML);
-h1.style.color = "blue";
-h1.style.background = "orange";
-var h2 = document.getElementById("subtitulo");
-console.log(h2.innerHTML);
-h2.style.color = "grey";
-h2.style.background = "black";
-parrafo = document.getElementById("articulo");
-parrafo.style.color = "cyan";
-parrafo.style.background = "grey";
-console.log(articulo.innerHTML);
-var button = document.getElementById("boton");
-console.log(button.innerHTML);
-button.style.color = "white";
-button.style.background = "red";
 
+    <script>
+        var h1 = document.getElementById("Software");
+        console.log(h1.innerHTML);
+        h1.style.color = "blue";
+        var h2 = document.getElementById("Empresa");
+        console.log(h2.innerHTML);
+        h2.style.color = "yellow";
+        var h3 = document.getElementById("Usuario");
+        console.log(h2.innerHTML);
+        h2.style.color = "red";
+        parrafo = document.getElementById("articulo");
+        parrafo.style.color = "cyan";
+        parrafo.style.background = "grey";
+        console.log(articulo.innerHTML);
+        var button = document.getElementById("boton");
+        console.log(button.innerHTML);
+        button.style.color = "white";
+        button.style.background = "red";
     </script>
 
 
