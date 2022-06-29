@@ -6,26 +6,17 @@
     <link href="Eva03.css" rel="stylesheet" />
 </head>
 <body>
-
-    <script>
-        function gbtn() {
-
-            button.style.color = "gold";
-            button.style.background = "grey";
-        }
-    </script>
-
     <div class="contenedor">
-        <h1 id="titulo">Evaluamiento 3</h1>
-        <h2 id="subtitulo">esto es un subtitulo</h2>
-        <article id="articulo">  Los numeros 1 2 y 3 </article>
-
-        <button id="boton" class="btn bnt-info" onclick="gbtn()">CAMBIAR</button>
-
+        <h1 id="titulo">Página prototipo</h1>
     </div>
-
-    <div class="container py-2">
-        <p class="lead">ingresa usuarios</p>
+    <aside>
+        <h2 >Panel de colores</h2>
+        <button id="boton" class="btn bnt-info" onclick="gbtn()"> Rojo</button>
+        <button id="boton2" class="btn bnt-info" onclick="gbtn2()">Naranjo</button>
+        <button id="boton3" class="btn bnt-info" onclick="gbtn3()">Amarillo</button>
+    </aside>
+    <div  class="container py-2">
+        <p id="user" class="lead">ingreso de información</p>
         <form>
             <input id="Software" type="text" placeholder="Ingresar Software" class="form-control my-2">
             <input id="Empresa" type="text" placeholder="Ingresar Empresa" class="form-control my-2">
@@ -46,28 +37,6 @@
         </table>
         <script src="Eva03.js"></script>
     </div>
-
-    <script>
-        var h1 = document.getElementById("Software");
-        console.log(h1.innerHTML);
-        h1.style.color = "blue";
-        var h2 = document.getElementById("Empresa");
-        console.log(h2.innerHTML);
-        h2.style.color = "yellow";
-        var h3 = document.getElementById("Usuario");
-        console.log(h2.innerHTML);
-        h2.style.color = "red";
-        parrafo = document.getElementById("articulo");
-        parrafo.style.color = "cyan";
-        parrafo.style.background = "grey";
-        console.log(articulo.innerHTML);
-        var button = document.getElementById("boton");
-        console.log(button.innerHTML);
-        button.style.color = "white";
-        button.style.background = "red";
-    </script>
-
-
 
 </body>
 </html>

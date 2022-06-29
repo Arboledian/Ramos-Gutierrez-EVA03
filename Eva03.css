@@ -1,4 +1,4 @@
-﻿﻿body {
+﻿body {
     background-color: orange;
     background-image: url("https://images2.alphacoders.com/749/thumb-1920-749693.jpg");
     background-size: cover;
@@ -61,6 +61,7 @@ table {
     background-size: cover;
     background-attachment: local;
     background-position: center;
+    background-repeat:no-repeat;
     float: left;
     font-family: 'Koulen', cursive;
     font-family: 'Lora', serif;
@@ -84,6 +85,7 @@ input {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity:0.9;
 }
 button {
     background-color: lightgrey;
@@ -100,5 +102,16 @@ button {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    opacity: 0.9;
+    inline-size:150px;
 }
-
+aside {
+    opacity: 0.9;
+    font-family: 'Koulen', cursive;
+    font-family: 'Lora', serif;
+    font-family: 'Roboto Mono', monospace;
+    width: 400px;
+    height: auto;
+    margin: 50px;
+    text-align: center;
+}
